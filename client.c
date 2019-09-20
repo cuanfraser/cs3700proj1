@@ -228,7 +228,8 @@ int main(int argc, char** argv) {
 		}
 
 		int count = 0;
-		for (int ii = 0; ii < strlen(randomstring); ii++) {
+		int ii;
+		for (ii = 0; ii < strlen(randomstring); ii++) {
 			if (randomstring[ii] == asci) {
 				count++;
 			}
